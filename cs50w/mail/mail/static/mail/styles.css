@@ -1,0 +1,30 @@
+textarea {
+    min-height: 400px;
+}
+.opened_emails, .notopened_emails {
+    border: 1px solid blue;
+    border-radius: 0.2em;
+    padding: 8px;
+}
+.opened_emails {
+    background-color: #c4c5ca;
+}
+
+.notopened_emails {
+    background-color: white;
+}
+.sender, .recipients {
+    color: blue;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.subject {
+    text-align: center;
+    padding-right: 0px;
+
+}
+.timestamp {
+    font-weight: 200;
+    font-size: 14px;
+    float: right;
+}
