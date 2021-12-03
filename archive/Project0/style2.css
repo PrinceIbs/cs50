@@ -1,0 +1,70 @@
+@charset "UTF-8";
+#contact, table, #pricelist table th, #pricelist table td, #subheading > h3, #title, #heading {
+  font-family: cursive;
+  text-align: center;
+}
+
+#heading {
+  background-color: #faf61b;
+  text-align: center;
+}
+
+#homepage > a::before {
+  font-family: cursive;
+  font-weight: bold;
+}
+@media (min-width: 500px) {
+  #homepage > a::before {
+    content: "⇒Click here to return to home page ";
+  }
+}
+@media (max-width: 499px) {
+  #homepage > a::before {
+    content: "⇒Homepage ";
+  }
+}
+
+#homepage > a:hover {
+  background-color: blue;
+  color: #94ff94;
+}
+
+#title {
+  background-color: grey;
+  font-style: monospace;
+  text-align: center;
+  padding: 3px;
+}
+
+#subheading > h3 {
+  color: blue;
+}
+
+#buttom, #subheading > p {
+  font-family: cursive;
+}
+
+#pricelist table {
+  background-color: #d0f7ba;
+  border: 2px solid black;
+  width: 99%;
+  margin: 2px;
+}
+#pricelist table th, #pricelist table td {
+  border: 1px solid black;
+}
+
+#contact, table {
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: cursive;
+}
+.container .bottom-left {
+  position: margin-left;
+}
+
+/*# sourceMappingURL=style2.css.map */

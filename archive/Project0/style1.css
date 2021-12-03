@@ -1,0 +1,27 @@
+#contact, table, .listitem, #subheading, #heading {
+  text-align: center;
+  font-family: cursive;
+}
+
+#heading {
+  background-color: #faf61b;
+  margin: 2px;
+}
+#heading h3 {
+  font-style: italic;
+}
+
+#subheading {
+  color: springgreen;
+  font-size: 24px;
+}
+
+.paragraph, .container {
+  font-family: cursive;
+}
+
+#contact, table {
+  padding: 5px;
+}
+
+/*# sourceMappingURL=style1.css.map */

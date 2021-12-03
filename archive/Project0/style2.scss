@@ -1,0 +1,62 @@
+$textalign: center;
+$ffamily: cursive;
+
+%general {
+  font-family: $ffamily;
+  text-align: $textalign;
+}
+
+#heading {
+  @extend %general;
+  background-color:rgb(250, 246, 27);
+  text-align: center;
+}
+#homepage > a::before {
+  font-family: cursive;
+  font-weight: bold;
+  @media (min-width: 500px) {
+    content: "\21d2 Click here to return to home page ";
+  }
+  @media (max-width: 499px) {
+   content: "\21d2 Homepage ";
+  }
+}
+#homepage > a:hover {
+    background-color: blue;
+    color: #94ff94;
+  }
+#title {
+    @extend %general;
+  background-color: grey;
+  font-style: monospace;
+  text-align: center;
+  padding: 3px;
+}
+#subheading > h3 {
+    @extend %general;
+    color: blue;
+}
+#buttom, #subheading > p {
+  font-family: $ffamily;
+}
+#pricelist  table {
+  background-color: #d0f7ba;
+  border: 2px solid black;
+  width: 99%;
+  margin: 2px;
+  th, td {
+      @extend %general;
+    border: 1px solid black;}
+}
+#contact , table {
+  @extend %general;
+    padding: 5px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: $ffamily;
+  .bottom-left {
+  position: margin-left;
+}
+}

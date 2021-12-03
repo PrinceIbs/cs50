@@ -1,0 +1,31 @@
+$text-align: center;
+$myfont: cursive;
+
+%general-style {
+  text-align: $text-align;
+  font-family: $myfont;
+}
+
+#heading {
+    @extend %general-style;
+    background-color:rgb(250, 246, 27);
+    margin: 2px;
+    h3 {
+      font-style: italic;
+    }
+}
+#subheading {
+    @extend %general-style;
+    color: springgreen;
+    font-size: 24px;
+}
+.paragraph, .container {
+  font-family: $myfont;
+}
+.listitem {
+  @extend %general-style;
+}
+#contact, table {
+    padding: 5px;
+    @extend %general-style;
+}
